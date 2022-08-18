@@ -1,0 +1,20 @@
+{
+  "name": "set-up-first-portfolio",
+  "version": "1.0.0",
+  "description": "- Learning objectives.\r - Understand how to parse a Figma design to create a UI.\r - Flexbox to place elements in the page.\r - Build a personal portfolio site.\r - Use images and backgrounds to enhance the look of the website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredsephT32/Set-up-first-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredsephT32/Set-up-first-Portfolio/issues"
+  },
+  "homepage": "https://github.com/FredsephT32/Set-up-first-Portfolio#readme"
+}
