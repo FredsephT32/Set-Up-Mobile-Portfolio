@@ -100,19 +100,12 @@ button:hover {
 .all-cards {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  box-sizing: border-box;
+  border-top: 114px;
   align-items: center;
   padding: 16px;
   border-radius: 16%;
   gap: 12px;
-}
-
-.class__content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 14px;
-  width: 100%;
 }
 
 .tag-group {
@@ -132,7 +125,7 @@ button:hover {
   color: #172b4d;
 }
 
-.separator {
+.dot-separator {
   width: 8px;
   height: 8px;
   border-radius: 16px;
