@@ -1,56 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+## Fritz-s-Portfolio-Set-Up
+- Understand how to parse a Figma design to create a UI and Flexbox to place elements in the page.
 
-> Description the project.
-
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Build a personal portfolio template, Use images and backgrounds to enhance the look of the website.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps. 
 
+# Setup
 
-To get a local copy up and running follow these simple example steps.
+- Click on the green code button and copy the link of the Repository
+- https://github.com/FredsephT32/Set-Up-Mobile-Portfolio.git
+- CLone the Repository in your Github Desktop or Git Bash.
+- And Open the Folder In your Text Editor 
 
-### Prerequisites
+## General Requirements 
 
-### Setup
+- Make sure that there are no linter errors:
+- Linter should be set up correctly for this repository.
+- Linter result should be green.
+- There should be no custom changes to linter config.
+- Make sure that you used correct GitHub Flow:
+- README file should be descriptive.
+- Commit messages should be meaningful.
+- Pull Request should have a descriptive title explaining what changes are inside.
+- Pull Request should have a short summary describing introduced changes in more detail.
+- Make sure that you documented your work in a professional way:
+- Branch name should describe a feature or action (e.g. 'created_sidebar' or 'added_comments_section').
+- Pull Request is made from 'feature branch' into the main branch.
 
-### Install
+👤 **Author Frederick**
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@FredsephT32](https://github.com/FredsephT32)
+- Twitter: [@lil Fritz](https://twitter.com/Frederi70813362)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/frederick-torres-900b4a196/)
 
 ## 🤝 Contributing
 
@@ -60,13 +45,11 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a 👌 if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration Microverse Figma Template 1
 
 ## 📝 License
 

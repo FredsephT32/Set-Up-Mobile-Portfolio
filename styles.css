@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.header-bar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px 24px;
+}
+
+.Left-Logo {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: slateblue;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.headline-1 {
+  background-image: url("./Images/header-shapes mobile.png");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-headline-txt {
+  display: flex;
+  flex-direction: column;
+  padding: 102px 24px 136px 24px;
+  gap: 12px;
+}
+
+.glad-txt {
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  min-height: 150px;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  line-height: 52px;
+}
+
+.paragraph-txt {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connect .small-txt {
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.media-Images ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  width: 200px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+button:hover {
+  cursor: pointer;
+}
