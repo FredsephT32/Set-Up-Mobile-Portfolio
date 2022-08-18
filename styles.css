@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  border-bottom-right-radius: 100px;
 }
 
 .nav-bar {
@@ -94,4 +95,131 @@ body {
 
 button:hover {
   cursor: pointer;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 16%;
+  gap: 12px;
+}
+
+.class__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.tag-group {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tag {
+  color: #7a869a;
+}
+
+.tag-Canopy {
+  color: #172b4d;
+}
+
+.separator {
+  width: 8px;
+  height: 8px;
+  border-radius: 16px;
+  background-color: #c1c7d0;
+}
+
+.card-txt {
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+}
+
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+}
+
+.big-txt {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.prog ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  column-gap: 10px;
+}
+
+.prog button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  background: #ebebff;
+  border: none;
+  padding: 4px 12px 4px 12px;
+}
+
+.project-check button {
+  background: transparent;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-left: 16px;
 }
