@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
- margin: 0;
- border: 0;
- padding: 0; 
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 body {
@@ -13,14 +13,14 @@ body {
 }
 
 .header-bar {
-  background-color:white;
+  background-color: white;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
 .nav-bar {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 14px 24px;
@@ -29,7 +29,7 @@ body {
 .Left-Logo {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  color:slateblue;
+  color: slateblue;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -41,7 +41,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 .main-headline-txt {
   display: flex;
@@ -57,13 +56,13 @@ body {
   font-weight: 700;
   font-size: 40px;
   display: flex;
-  align-items:center;
+  align-items: center;
   color: #172b4d;
   line-height: 52px;
 }
 
 .paragraph-txt {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -71,17 +70,11 @@ body {
   color: #344563;
 }
 
-.main-headline-txt {
-  display: flex;
-  flex-direction: column;
-  padding: 102px 24px 136px 24px;
-}
-
 .connect .small-txt {
   background: transparent;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  color:  #7f8cff;
+  color: #7f8cff;
   font-size: 16px;
   line-height: 24px;
   border: none;
