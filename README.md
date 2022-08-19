@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Fritz-s-Portfolio-Set-Up
+# Fritz-s-Portfolio-Set-Up
 - Understand how to parse a Figma design to create a UI and Flexbox to place elements in the page.
 
 - Build a personal portfolio template, Use images and backgrounds to enhance the look of the website.
@@ -9,7 +9,7 @@
 
 To get a local copy up and running follow these simple example steps. 
 
-# Setup
+## Setup
 
 - Click on the green code button and copy the link of the Repository
 - https://github.com/FredsephT32/Set-Up-Mobile-Portfolio.git
