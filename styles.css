@@ -232,7 +232,6 @@ button:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-
 .last-labels {
   gap: 16px;
   margin: 24px;
@@ -246,7 +245,7 @@ button:hover {
 
 .languages-icons {
   gap: 16px;
-  display:flex;
+  display: flex;
   margin: 20px;
   width: 303px;
   height: 66px;
