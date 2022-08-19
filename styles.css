@@ -20,8 +20,6 @@ body {
   flex-direction: column;
   background-color: white;
   border-bottom-left-radius: 80px;
-  background-repeat: no-repeat;
-  background-image: url("./Images/header-shapes mobile.png");
 }
 
 .nav-bar {
@@ -41,9 +39,11 @@ body {
 }
 
 .headline-1 {
-  background-size: 100%;
   display: flex;
+  background-size: 100%;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-image: url("./Images/header-shapes mobile.png");
 }
 
 .main-headline-txt {
@@ -230,9 +230,7 @@ button:hover {
 }
 
 .Programs-section {
-  display: flex;
   background-color: white;
- 
 }
 
 .list-container li {
