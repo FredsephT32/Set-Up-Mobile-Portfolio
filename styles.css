@@ -199,7 +199,7 @@ button:hover {
 .prog ul {
   list-style: none;
   flex-direction: row;
-  float: left;
+  display: flex;
   column-gap: 10px;
 }
 
