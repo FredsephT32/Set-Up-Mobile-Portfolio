@@ -309,7 +309,6 @@ button:hover {
   line-height: 28px;
   font-weight: 400;
   color: #ebebff;
-  line-height: 28px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
@@ -321,4 +320,3 @@ button:hover {
   padding-bottom: 45px;
   gap: 18px;
 }
-
