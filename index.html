@@ -208,24 +208,15 @@
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
       
       <form class="boxels" action="https://formspree.io/f/myyvzedv" method="post">
-        <ul>
-          <li>
-              <label for="name"></label>
-              <input type="text" name="user_name" id="name" placeholder="Your Name" maxlength="30" required>
-          </li>
-          <li>
-              <label for="email"></label>
-              <input type="email" name="user_email" id="email" placeholder="Enter your email" required>
-          </li>
-          <li>
-              <label for="message"></label>
-              <textarea id="message" placeholder="Enter your message here" maxlength="500" required></textarea>
-          </li>
-          <li><button type="submit" class="project-check"><span> Get in touch </span></button></li>
-          <li>
-              <div class="shape"><img src="./assets/Shape.png" alt=""></div>
-          </li>
-      </ul>
+
+        <input class="contact-boxes" type="text" id="name" name="user_name" maxlength="30" placeholder="your name here" required>
+        
+        <input  class="contact-boxes" type="email" id="mail" name="user_email" placeholder="your email address" required>
+        
+        <textarea  class="contact-boxes" cols="30" rows="6" id="contact-msg" name="user_message" maxlength="500" placeholder="Write your message here" required></textarea>
+       
+        <div class="project-check"> <button type="submit">Get it touch</button></div>
+   
       </form>
       
     </div>
@@ -235,3 +226,4 @@
 
 </body>
 </html>
+

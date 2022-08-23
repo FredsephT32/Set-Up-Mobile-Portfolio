@@ -320,3 +320,17 @@ button:hover {
   padding-bottom: 45px;
   gap: 18px;
 }
+
+.contact-boxes {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+  padding: 15px 38px 15px 16px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-family: 'Poppins', sans-serif;
+}
