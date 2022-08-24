@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 * {
   margin: 0;
@@ -51,14 +51,14 @@ body {
 
 .glad-txt {
   font-family: "Poppins", sans-serif;
-  width: 300px;
+  align-items: center;
   min-height: 150px;
+  line-height: 52px;
   font-weight: 700;
   font-size: 40px;
   display: flex;
-  align-items: center;
+  width: 300px;
   color: #172b4d;
-  line-height: 52px;
 }
 
 .paragraph-txt {
@@ -217,6 +217,7 @@ button:hover {
 }
 
 .project-check button {
+  font-family: 'Poppins', sans-serif;
   background: transparent;
   background-color: white;
   font-weight: 500;
