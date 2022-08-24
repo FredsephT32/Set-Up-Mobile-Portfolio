@@ -231,16 +231,6 @@ body {
   border-radius: 8px;
 }
 
-/*.project-check:hover button {
-  background-color: #f7f7f9;
-  cursor: pointer;
-}*/
-
-/*.project-check:active button {
-  background-color: #dedee0;
-  transform: translateY(4px);
-}*/
-
 button:hover {
   background-color: #6070ff;
   border-radius: 8px;
