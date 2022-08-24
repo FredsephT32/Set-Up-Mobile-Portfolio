@@ -37,6 +37,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@lil Fritz](https://twitter.com/Frederi70813362)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/frederick-torres-900b4a196/)
 
+👤 **Author Shaker AbuDrais**
+
+- - GitHub: [@shakerAbuDrais](https://github.com/shakerAbuDrais)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
