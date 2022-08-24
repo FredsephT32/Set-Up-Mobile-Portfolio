@@ -11,7 +11,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  background-color: #f7f7f9;
 }
 
 .header-bar {
@@ -90,10 +89,6 @@ body {
   width: 200px;
   padding: 0;
   justify-content: space-between;
-}
-
-button:hover {
-  cursor: pointer;
 }
 
 .all-cards {
@@ -202,32 +197,44 @@ button:hover {
   flex-direction: row;
   display: flex;
   column-gap: 10px;
+  border: none;
 }
 
 .prog button {
+  background-color: #ebebff;
+  padding: 4px 12px 4px 12px;
+  color: #6070ff;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
   border-radius: 8px;
-  background: #ebebff;
-  border: none;
-  padding: 4px 12px 4px 12px;
 }
 
 .project-check button {
   font-family: 'Poppins', sans-serif;
-  background: transparent;
   background-color: white;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
   padding: 12px;
-  border: 1px solid #6070ff;
+  border: 1px solid;
   border-radius: 8px;
+}
+
+.project-check:hover button {
+  background-color: #f7f7f9;
+  cursor: pointer;
+}
+
+.project-check:active button {
+  background-color: #dedee0;
+  transform: translateY(4px);
 }
 
 .programs-section {
