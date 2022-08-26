@@ -622,6 +622,7 @@ button[disabled] {
 
   .headline-2 {
     width: 50%;
+    padding-top: 0;
   }
 
   .media-Images {
@@ -779,5 +780,9 @@ button[disabled] {
 
   #contact-msg {
     height: 170px;
+  }
+
+  footer {
+    background-color: white;
   }
 }
