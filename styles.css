@@ -8,6 +8,7 @@
 }
 
 body {
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -40,13 +41,24 @@ body {
 .headline-1 {
   gap: 12px;
   display: flex;
-  background-size: 100%;
   flex-direction: column;
   background-color: white;
-  background-repeat: no-repeat;
-  padding: 102px 24px 136px 24px;
   border-bottom-left-radius: 80px;
+}
+
+.background-image {
+  background-size: 100%;
+  padding: 102px 24px 136px 24px;
+  background-repeat: no-repeat;
   background-image: url("./Images/header-shapes mobile.png");
+}
+
+.txt-arrange {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 24px;
+  gap: 12px;
 }
 
 .glad-txt {
@@ -103,6 +115,7 @@ body {
 
 .tag-group {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-size: 13px;
   font-weight: 600;
   display: flex;
@@ -112,10 +125,25 @@ body {
 
 .tag {
   color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.tag-year {
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .tag-Canopy {
   color: #172b4d;
+  font-weight: 500;
 }
 
 .dot-separator {
@@ -134,7 +162,7 @@ body {
   line-height: 24px;
 }
 
-.card-1 {
+.work-card {
   display: flex;
   flex-direction: column;
   border: 1px solid #dfe1e6;
@@ -144,10 +172,9 @@ body {
   background-color: white;
 }
 
-.card-2 {
+.card-content {
   display: flex;
   flex-direction: column;
-  border: 1px solid #dfe1e6;
   padding: 16px;
   border-radius: 16px;
   gap: 12px;
@@ -161,17 +188,6 @@ body {
   padding: 16px;
   border-radius: 16px;
   gap: 12px;
-  background-color: white;
-}
-
-.card-4 {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #dfe1e6;
-  padding: 16px;
-  border-radius: 16px;
-  gap: 12px;
-  background-color: white;
 }
 
 .headline-2 {
@@ -215,6 +231,10 @@ body {
   gap: 8px;
 }
 
+.prog .add-ruby {
+  display: none;
+}
+
 .project-check button {
   font-family: 'Poppins', sans-serif;
   background-color: white;
@@ -240,6 +260,7 @@ button:hover {
 
 button:active {
   background-color: #2230d2;
+  transform: translateY(4px);
   border-radius: 8px;
   color: #fff;
 }
@@ -255,20 +276,54 @@ button[disabled] {
   color: #5e6c84;
 }
 
-.programs-section {
+.all-about-myself {
+  border-top-right-radius: 80px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.list-header {
+  width: 100%;
+  padding: 24px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-title {
+  color: #344563;
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .last-labels {
   gap: 16px;
   margin: 24px;
   display: flex;
+  flex-direction: column;
   font-size: 20px;
   list-style: none;
   font-weight: 500;
   line-height: 24px;
   justify-content: space-between;
+}
+
+.language-label {
+  font-family: 'Poppins', sans-serif;
+  color: #253858;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .languages-icons {
@@ -281,6 +336,10 @@ button[disabled] {
   border-radius: 8px;
   align-items: center;
   background-color: #f7f7f9;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #999;
 }
 
 .lng-txt {
@@ -361,18 +420,385 @@ button[disabled] {
   font-family: 'Poppins', sans-serif;
 }
 
-img:hover {
-  border: 4px solid gold;
-  border-radius: 10px;
+.nav-list,
+.title-replace,
+.replace-canopy,
+.replace-tag,
+.other-year,
+.replace-tonic,
+.replace-p {
+  display: none;
 }
 
-button:active {
-  background-color: #2230d2;
-  transform: translateY(4px);
-  border-radius: 8px;
-  color: #fff;
-}
+@media (min-width: 768px) {
+  img#Hamburger-logo,
+  .image-tonic,
+  .glad-txt,
+  .tag-Canopy,
+  .tag,
+  .tag-year,
+  .big-txt,
+  .card-txt {
+    display: none;
+  }
 
-button:hover {
-  cursor: grab;
+  .prog .add-ruby {
+    display: inline;
+  }
+
+  .nav-bar {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .nav-list {
+    font-family: 'Poppins', sans-serif;
+    color: #344563;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 32px;
+  }
+
+  .headline-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .background-image {
+    margin: 118px 8px 76.54px 34.6px;
+    align-items: center;
+    background-position: center;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url("Images/Background-Header-d.png");
+  }
+
+  .title-replace {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: inline;
+    min-height: initial;
+    color: #091e42;
+  }
+
+  .txt-arrange {
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-bottom: 255px;
+    margin-top: 241px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+  }
+
+  .all-cards {
+    gap: 142px;
+  }
+
+  .work-card {
+    flex-direction: row;
+    padding: 24px;
+  }
+
+  .work-card:hover {
+    border: 2px solid #a7aeff;
+    border-radius: 24px;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .card_image {
+    width: 544px;
+    height: 448px;
+    left: 24px;
+    top: 24px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+    width: 544px;
+    height: 465px;
+    left: 590px;
+    top: 24px;
+  }
+
+  .big-txt {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .replace-tonic {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .replace-tag {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .replace-canopy {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline;
+    color: #172b4d;
+  }
+
+  .replace-p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline;
+    color: #344563;
+  }
+
+  .other-year {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .card-1 {
+    order: 2;
+  }
+
+  .card-2 {
+    order: 3;
+  }
+
+  .card-2 img {
+    order: 1;
+  }
+
+  .card-4 img {
+    order: 1;
+  }
+
+  .all-about-myself {
+    border-top-right-radius: 80px;
+    flex-direction: row;
+    padding: 142px;
+    display: flex;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .headline-2 {
+    width: 50%;
+    padding-top: 0;
+  }
+
+  .media-Images {
+    gap: 26;
+  }
+
+  .project-check {
+    padding-top: 20px;
+  }
+
+  .lng-txt {
+    font-size: 15px;
+    font-weight: 500;
+    color: #253858;
+    line-height: 20px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .language-shapes {
+    width: 50%;
+  }
+
+  #prog-lngs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last-labels {
+    gap: 16px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .list-header {
+    width: 100%;
+    padding: 24px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .list-title {
+    color: #344563;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .language-list {
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .list-item-content {
+    display: flex;
+  }
+
+  .languages-icons {
+    flex: 1;
+    gap: 16px;
+    margin: 0;
+    width: 122px;
+    height: 120px;
+    padding: 12px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: #f7f7f9;
+    justify-content: space-between;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid #999;
+  }
+
+  .language-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .language-label {
+    font-family: 'Poppins', sans-serif;
+    color: #253858;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-background {
+    margin: 79.09px 74px 48.21px 75.34px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-image: url("Images/contact-desktop-background-shapes.svg");
+  }
+
+  .margins button {
+    margin-left: 32%;
+    display: flex;
+    align-items: center;
+  }
+
+  .all-contact p {
+    padding: 0 300px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ebebff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .contact-boxes {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    padding: 15px 38px 15px 16px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #cfd8dc;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .boxels {
+    width: 447px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  #contact-msg {
+    height: 170px;
+  }
+
+  footer {
+    background-color: white;
+  }
+
+  img:hover {
+    border: 4px solid gold;
+    border-radius: 10px;
+  }
+
+  button:active {
+    background-color: #2230d2;
+    transform: translateY(4px);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  button:hover {
+    cursor: grab;
+  }
 }
