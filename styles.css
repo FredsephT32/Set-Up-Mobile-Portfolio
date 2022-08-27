@@ -452,6 +452,20 @@ button[disabled] {
     background-color: white;
     padding-left: 142px;
     padding-right: 142px;
+    text-decoration: none;
+  }
+
+  .Left-Logo {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
   }
 
   .nav-list {
@@ -463,6 +477,14 @@ button[disabled] {
     flex-direction: row;
     list-style: none;
     gap: 32px;
+  }
+
+  .menu-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-decoration: none;
   }
 
   .headline-1 {
@@ -784,21 +806,5 @@ button[disabled] {
 
   footer {
     background-color: white;
-  }
-
-  img:hover {
-    border: 4px solid gold;
-    border-radius: 10px;
-  }
-
-  button:active {
-    background-color: #2230d2;
-    transform: translateY(4px);
-    border-radius: 8px;
-    color: #fff;
-  }
-
-  button:hover {
-    cursor: grab;
   }
 }
