@@ -5,10 +5,6 @@
 
 - Build a personal portfolio template, Use images and backgrounds to enhance the look of the website.
 
-## Live Demo (if available)
-
-[Live Demo Link](https://fredsepht32.github.io/Set-Up-Mobile-Portfolio/)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps. 
