@@ -452,6 +452,20 @@ button[disabled] {
     background-color: white;
     padding-left: 142px;
     padding-right: 142px;
+    text-decoration: none;
+  }
+
+  .Left-Logo {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
   }
 
   .Left-Logo {
@@ -470,12 +484,14 @@ button[disabled] {
     gap: 32px;
   }
 
+
   .desk-main-list {
     font-family: 'Poppins', sans-serif;
     color: #344563;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+
   }
 
   .headline-1 {
