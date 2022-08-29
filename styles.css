@@ -469,22 +469,19 @@ button[disabled] {
   }
 
   .nav-list {
-    font-family: 'Poppins', sans-serif;
-    color: #344563;
-    font-size: 15px;
-    line-height: 20px;
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 32px;
   }
 
-  .menu-list {
+  .desk-main-list {
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    color: #344563;
+    font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
-    text-decoration: none;
   }
 
   .headline-1 {
@@ -494,11 +491,11 @@ button[disabled] {
   }
 
   .background-image {
-    margin: 118px 8px 76.54px 34.6px;
+    padding: 0;
     align-items: center;
     background-position: center;
-    padding: 0;
     background-repeat: no-repeat;
+    margin: 118px 8px 76.54px 34.6px;
     background-image: url("Images/Background-Header-d.png");
   }
 
