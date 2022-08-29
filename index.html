@@ -64,7 +64,7 @@
       <section  id="Portfolios" class="all-cards">
 
     <div class="work-card card-1">
-         <img src="Images/work-card-facebook.svg" alt="" class="card_image">
+         <img src="Images/work-card-facebook.svg" alt="card-facebook" class="card_image">
            <div class="card-content">
           <h2 class="big-txt">Tonic</h2>
           <h2 class="replace-tonic">Facebook 360</h2>
@@ -93,7 +93,7 @@
     </div>
 
     <div class="work-card card-2">
-      <img src="Images/work-card-uber.svg" alt="" class="card_image">
+      <img src="Images/work-card-uber.svg" alt="card-uber" class="card_image">
       <div class="card-content">
        <h2 class="big-txt">Multi-Post Stories</h2>
        <h2 class="replace-tonic">Uber Navigation</h2>
@@ -122,8 +122,8 @@
    </div>
 
    <div class="work-card card-3">
-    <img src="Images/work-card-tonic.svg" alt="" class="image-tonic">
-    <img src="Images/work-card-replace-tonic.svg" alt="" class="replace-tonic">
+    <img src="Images/work-card-tonic.svg" alt="Tonic" class="image-tonic">
+    <img src="Images/work-card-replace-tonic.svg" alt="Nature Image" class="replace-tonic">
     <div class="card-content">
    <h2 class="big-txt">Tonic</h2>
    <h2 class="replace-tonic">Tonic</h2>
@@ -150,7 +150,7 @@
    </div>
 
    <div class="work-card card-4">
-   <img src="Images/work-card-art-prog.svg" alt="" class="card_image">
+   <img src="Images/work-card-art-prog.svg" alt="card-art" class="card_image">
    <div class="card-content">
    <h2 class="big-txt">Multi-Post Stories</h2>
    <h2 class="replace-tonic">Multi-Post Stories</h2>
@@ -251,11 +251,13 @@
       <h2>Contact me</h2>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
       <form class="boxels" action="https://formspree.io/f/myyvzedv" method="post">
-
+        <label for="name"></label>
         <input class="contact-boxes" type="text" id="name" name="user_name" maxlength="30" placeholder="your name here" required>
         
+        <label for="mail"></label>
         <input  class="contact-boxes" type="email" id="mail" name="user_email" placeholder="your email address" required>
         
+        <label for="contact-msg"></label>
         <textarea  class="contact-boxes" cols="30" rows="6" id="contact-msg" name="user_message" maxlength="500" placeholder="Write your message here" required></textarea>
        
         <div class="project-check"> <button type="submit">Get in touch</button></div>
