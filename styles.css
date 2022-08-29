@@ -468,23 +468,12 @@ button[disabled] {
     color: #6070ff;
   }
 
-  .Left-Logo {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    color: #6070ff;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-  }
-
   .nav-list {
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 32px;
   }
-
 
   .desk-main-list {
     text-decoration: none;
@@ -493,7 +482,6 @@ button[disabled] {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-
   }
 
   .headline-1 {
@@ -503,11 +491,11 @@ button[disabled] {
   }
 
   .background-image {
-    margin: 118px 8px 76.54px 34.6px;
+    padding: 0;
     align-items: center;
     background-position: center;
-    padding: 0;
     background-repeat: no-repeat;
+    margin: 118px 8px 76.54px 34.6px;
     background-image: url("Images/Background-Header-d.png");
   }
 
