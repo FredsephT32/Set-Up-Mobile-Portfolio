@@ -36,6 +36,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  text-decoration: none;
 }
 
 /* mobile-menu-list */
@@ -86,7 +87,7 @@ body {
   align-items: center;
   padding-left: 28px;
   padding-bottom: 40px;
-  color: #ffff;
+  color: #ffffff;
   gap: 40px;
 }
 
@@ -483,7 +484,7 @@ button[disabled] {
 }
 
 @media (min-width: 768px) {
-  img#Hamburger-logo,
+  img#Hamburger-icon,
   .image-tonic,
   .glad-txt,
   .tag-Canopy,
