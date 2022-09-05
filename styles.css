@@ -38,6 +38,29 @@ body {
   line-height: 20px;
 }
 
+/* mobile-menu-list*/
+
+.mob-menu {
+  display: flex;
+  flex-direction: column;  
+}
+
+.mob-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.mob-list a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* color: #fff; */
+}
+
 .headline-1 {
   gap: 12px;
   display: flex;
