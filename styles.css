@@ -40,9 +40,35 @@ body {
 
 /* mobile-menu-list*/
 
-.mob-menu {
+.isHidden {
   display: none;
-  flex-direction: column;  
+}
+
+.close-btn {
+  position: absolute;
+  top: 62px;
+  right: 38px;
+  z-index: 100;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.mob-menu {
+  flex-direction: column;
+  position: fixed;
+  margin: 0%;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #384bf6;
+  z-index: 1;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  padding-top: 106px;
+  mix-blend-mode: multiply;  
 }
 
 .mob-list {
@@ -52,13 +78,18 @@ body {
 }
 
 .mob-list a {
+  text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  text-decoration: none; 
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  /* color: #fff; */
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+  padding-bottom: 40px;
+  color: #ffff;
+  gap: 40px;
 }
 
 .headline-1 {
