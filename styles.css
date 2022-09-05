@@ -38,8 +38,7 @@ body {
   line-height: 20px;
 }
 
-/* mobile-menu-list*/
-
+/* mobile-menu-list */
 .isHidden {
   display: none;
   visibility: hidden;
@@ -69,7 +68,7 @@ body {
   opacity: 1;
   transition: all 0.3s ease-in-out;
   padding-top: 106px;
-  mix-blend-mode: multiply;  
+  mix-blend-mode: multiply;
 }
 
 .mob-list {
@@ -699,9 +698,9 @@ button[disabled] {
     padding-top: 0;
   }
 
-  .media-Images {
+  /* .media-Images {
     gap: 26;
-  }
+  } */
 
   .project-check {
     padding-top: 20px;
