@@ -45,7 +45,7 @@ body {
 }
 
 .close-btn {
-  position: absolute;
+  position: fixed;
   top: 62px;
   right: 38px;
   z-index: 100;
@@ -56,7 +56,6 @@ body {
 }
 
 .mob-menu {
-  flex-direction: column;
   position: fixed;
   margin: 0%;
   top: 0;
@@ -65,10 +64,9 @@ body {
   height: 100vh;
   background-color: #384bf6;
   z-index: 1;
-  opacity: 1;
+  opacity: 0.9;
   transition: all 0.3s ease-in-out;
   padding-top: 106px;
-  mix-blend-mode: multiply;
 }
 
 .mob-list {
