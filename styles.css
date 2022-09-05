@@ -41,7 +41,7 @@ body {
 /* mobile-menu-list*/
 
 .mob-menu {
-  display: flex;
+  display: none;
   flex-direction: column;  
 }
 
