@@ -42,6 +42,7 @@ body {
 
 .isHidden {
   display: none;
+  visibility: hidden;
 }
 
 .close-btn {
