@@ -68,6 +68,7 @@ body {
   opacity: 0.9;
   transition: all 0.3s ease-in-out;
   padding-top: 106px;
+  backdrop-filter: blur(5px);
 }
 
 .mob-list {
