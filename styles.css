@@ -68,7 +68,8 @@ body {
   opacity: 0.9;
   transition: all 0.3s ease-in-out;
   padding-top: 106px;
-  backdrop-filter: blur(5px);
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(6px);
 }
 
 .mob-list {
@@ -485,6 +486,7 @@ button[disabled] {
 }
 
 @media (min-width: 768px) {
+
   img#Hamburger-icon,
   .image-tonic,
   .glad-txt,
