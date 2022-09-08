@@ -309,8 +309,7 @@ form.addEventListener('submit', (e) => {
     setTimeout(() => { errorMessage.style.display = 'none'; }, 3000);
     e.preventDefault();
     return false;
-  } 
-    form.submit();
-  
+  }
+  form.submit();
   return false;
 });
