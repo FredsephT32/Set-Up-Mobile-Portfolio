@@ -511,6 +511,15 @@ button[disabled] {
   border-top-left-radius: 80px;
 }
 
+.error {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 2px 15px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.327);
+}
+
 .contact-background {
   display: flex;
   margin-top: 21px;

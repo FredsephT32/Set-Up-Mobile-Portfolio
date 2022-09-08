@@ -295,3 +295,22 @@ function handleResize() {
 setProjects();
 
 window.addEventListener('resize', handleResize);
+
+const errorMessage = document.querySelector('.error');
+const emailInput = document.querySelector('#mail');
+const form = document.querySelector('.boxels');
+
+form.addEventListener('submit', (e) => {
+  const email = emailInput.value;
+
+  if (email !== email.toLowerCase()) {
+    errorMessage.style.display = 'block';
+    errorMessage.innerHTML = 'The email should only contain lowercase letters';
+    setTimeout(() => { errorMessage.style.display = 'none'; }, 3000);
+    e.preventDefault();
+    return false;
+  } 
+    form.submit();
+  
+  return false;
+});
