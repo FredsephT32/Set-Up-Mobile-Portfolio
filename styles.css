@@ -160,7 +160,7 @@ body {
   justify-content: space-between;
 }
 
-  /* mobile pop-up */
+/* mobile pop-up */
 
 .work-card-popup {
   width: 100%;
@@ -189,7 +189,6 @@ body {
   position: relative;
   width: 80%;
   height: auto;
-  /* min-height: 100%; */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -210,10 +209,9 @@ body {
 
 .card_image-popup {
   width: 100%;
-  /* max-width: 1108px; */
   height: auto;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .work-link {
@@ -229,7 +227,6 @@ body {
   color: #396df2;
   border: 1px solid;
   border-radius: 8px;
-  display: flex;
   align-items: center;
   text-align: center;
   gap: 10px;
@@ -240,7 +237,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
 }
 
@@ -258,7 +255,6 @@ body {
 }
 
 .buttons-popup {
-  
   margin-top: auto;
   display: flex;
   flex-direction: row;
@@ -266,7 +262,7 @@ body {
   gap: 12px;
 }
 
-  /* end of pop-up */
+/* end of pop-up */
 
 .all-cards {
   gap: 88px;
@@ -681,16 +677,16 @@ button[disabled] {
     flex-direction: row;
     gap: 24px;
   }
-  
+
   .card-txt.popup {
     flex: 7;
   }
-  
+
   .last-part-popup {
     flex: 3;
   }
 
-    /* end of desktop popup */
+  /* end of desktop popup */
 
   .all-cards {
     gap: 142px;
@@ -700,7 +696,7 @@ button[disabled] {
     flex-direction: row;
     padding: 24px;
   }
-  
+
   .work-card:nth-child(even) {
     flex-direction: row-reverse;
   }
