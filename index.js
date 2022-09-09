@@ -297,8 +297,17 @@ setProjects();
 window.addEventListener('resize', handleResize);
 
 const errorMessage = document.querySelector('.error');
-const emailInput = document.querySelector('#mail');
 const form = document.querySelector('.boxels');
+const nameInput = document.querySelector('input#name');
+const emailInput = document.querySelector('input#mail');
+const messageInput = document.querySelector('textarea#contact-msg');
+
+const formDefaultValues = JSON.parse(localStorage.getItem('Contact'));
+if (formDefaultValues != null) {
+  nameInput.value = formDefaultValues.name;
+  emailInput.value = formDefaultValues.mail;
+  messageInput.value = formDefaultValues.message;
+}
 
 form.addEventListener('submit', (e) => {
   const email = emailInput.value;
@@ -312,4 +321,11 @@ form.addEventListener('submit', (e) => {
   }
   form.submit();
   return false;
+});
+
+form.addEventListener('input', () => {
+  const name = nameInput.value;
+  const mail = emailInput.value;
+  const message = messageInput.value;
+  localStorage.setItem('Contact', JSON.stringify({ name, mail, message }));
 });
