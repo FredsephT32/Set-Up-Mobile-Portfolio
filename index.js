@@ -327,5 +327,5 @@ form.addEventListener('input', () => {
   const name = nameInput.value;
   const mail = emailInput.value;
   const message = messageInput.value;
-  localStorage.setItem('Contact', JSON.stringify({name, mail, message}));
+  localStorage.setItem('Contact', JSON.stringify({ name, mail, message }));
 });
